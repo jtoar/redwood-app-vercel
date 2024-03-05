@@ -51,3 +51,12 @@ reset_framework:
 		yarn build
 
 reset_tarsync: reset reset_framework tarsync
+
+# branch
+# ------
+
+open-vercel:
+	open 'https://vercel.com/jtoar?projectDeleted=rw-vercel-deploy-repro'
+
+open-neon:
+	open 'https://console.neon.tech/app/projects/floral-bar-01537254'
